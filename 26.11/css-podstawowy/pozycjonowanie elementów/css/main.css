@@ -1,0 +1,43 @@
+body {
+    background-color: pink;
+}
+
+#green {
+    position: relative;
+    width 300px;
+    height: 200px;
+    background-color: green;
+    top: 120px;
+    left: 20px;
+}
+
+#red {
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    background-color: red;
+    top: 20px;
+    left: 40px;
+        
+}
+
+
+#blue {
+   
+    width: 100px;
+    height: 50px;
+    background-color: blue;
+            
+    }
+
+
+#zafiksowany {
+    position: fixed;
+    background-color: lime;
+    width: 200px;
+    height: 200px;
+    top: 30px;
+    right: 40px;
+}
+
+
