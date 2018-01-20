@@ -1,0 +1,25 @@
+a:hover {
+ text-decoration: none;   
+    
+}
+a:target {
+    color: yellow;
+    
+}
+
+a:visited {
+color: red;
+    
+}
+
+#p1:before {
+     color: green;   
+content: "przed";
+}
+
+#container: first-child {
+    background-color: pink;
+    
+    
+    
+}

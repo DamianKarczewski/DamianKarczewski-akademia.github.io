@@ -1,0 +1,13 @@
+a:link {
+    color: darkgreen;
+    text-decoration: none;
+}
+
+
+a[href$=".doc"]:hover {
+    color: red;
+}
+
+a[href$=".docx"]:hover {
+    color: red;
+}

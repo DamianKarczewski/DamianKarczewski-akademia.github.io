@@ -1,0 +1,52 @@
+.box2 {
+    height: 150px;
+    width: 150px;
+    background-color: cyan;
+    margin: 20px;
+    transition-property: width;
+    transition-duration: 3s;
+
+}
+
+.box2:hover {
+    width: 300px;
+    background-color: red;
+}
+
+.box1 {
+    height: 150px;
+    width: 150px;
+    background-color: magenta;
+    margin: 20px;
+
+}
+
+.box3 {
+    height: 150px;
+    width: 150px;
+    background-color: yellow;
+    margin: 20px;
+    transition-property: height;
+    transition-duration: 3s;
+
+}
+
+.box3:hover {
+    height: 300px;
+
+}
+
+.box4 {
+    height: 150px;
+    width: 150px;
+    background-color: blue;
+    margin: 20px;
+    transition-property: height, width;
+    transition-duration: 4s;
+
+}
+
+.box4:hover {
+    height: 300px;
+    width: 300px;
+}

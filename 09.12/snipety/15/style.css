@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.container{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.column-1-4 {
+    height: 100vh;
+    width: 25%;
+    transition:  all 0.5s linear;
+    display: inline-block;
+    float: left;
+}
+
+.background {
+    height: 100%;
+    width: 200%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.column-1-4:hover {
+    width: 40%;
+}
+
+.container:hover .column-1-4:not(:hover) {
+    width: 20%;
+}
+
+
+#background-1{
+    background-image: url(elephant-2923917_1920.jpg);
+}
+
+#background-2{
+    background-image: url(fantasy-2925250_1920.jpg);
+}
+
+#background-3{
+    background-image: url(pexels-photo-691674.jpeg);
+}
+
+#background-4{
+    background-image: url(fantasy-2995326_1920.jpg);
+}

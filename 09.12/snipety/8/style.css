@@ -1,0 +1,11 @@
+q[lang*='en'], blockquote[lang*='en']{
+    quotes: '*' '*';
+}
+
+q[lang*='en']::before, blockquote[lang*='en']{
+   content: open-quote;
+}
+
+q[lang*='en']:after, blockquote[lang*='en']{
+    content: close-quote;
+}

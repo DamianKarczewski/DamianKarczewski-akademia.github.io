@@ -1,0 +1,31 @@
+@media screen (max-device-width: 992px) and (min-device-width: 768px) {
+    figure {
+        width: 100%;
+    }
+    #galery {
+        width: 50%;
+    }
+
+
+    width: 100%;
+}
+
+}
+
+@media screen (max-device-width: 768px) and (min-device-width: 480px) {
+    figure {
+        width: 74%;
+    }
+    #galery {
+        width: 49%;
+    }
+
+
+    @media screen (max-device-width: 480px) {
+        figure {
+            width: 100%;
+        }
+        #galery {
+            width: 100%;
+        }
+    }

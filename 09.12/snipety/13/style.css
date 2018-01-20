@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    }
+
+
+.content-section {
+    height: 300px;
+    text-align: center;
+}
+.parallax {
+    height: 400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+#parallax-first {
+        background-image: url(elephant-2923917_1920.jpg)
+}
+
+#parallax-second {
+        background-image: url(fantasy-2925250_1920.jpg)
+}

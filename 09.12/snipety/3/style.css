@@ -1,0 +1,5 @@
+.container {
+    width: 100%;
+    height: 140px;
+    background: -moz-linear-gradient(to right, yellow, orange, red, green, blue, purple);
+}

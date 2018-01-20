@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+}
+
+.container {
+
+    width: 80px;
+    height: 80px;
+    border: 2px solid #00aff0;
+    border-radius: 50%;
+    text-align: center;
+    background-color: white;
+}
+
+i.fa {
+    font-size: 25px;
+    color: #00aff0;
+
+}
+
+
+
+.container:hover {
+    background-color: #00aff0;
+    color: white;
+}
+
+/*Rozwiązanie Wojtka*/
+/*
+.cirlce.botton {
+    text-decoration: none;
+    background-color: darkturquoise;
+    border-radius: 50%;
+    height: 10px;
+    width: 100px;
+    display: inline-block;
+    text-align: center;
+    color: #fff;
+    font-size: 50px;
+    line-height: 100px;
+    transition: all 0.4s;
+
+.circle-botton: hover {
+background-color: #fff;
+color: darkturquoise
+}
+
+*/

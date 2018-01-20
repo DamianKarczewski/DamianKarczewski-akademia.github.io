@@ -1,0 +1,28 @@
+#p1 {
+   display: block;
+    background-color: deepskyblue;
+}
+
+#p2 {
+   display: block;
+    background-color: orange;
+}
+
+#p3 {
+   display: inline;
+    background-color: orange;
+}
+#p4 {
+   display: inline;
+    background-color: deepskyblue;
+}
+
+li {
+    
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: beige;
+    
+    
+}

@@ -1,0 +1,58 @@
+#menu {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-color: darkblue;
+    text-align: center;
+    text-decoration: none;
+    font-size: 9mm;
+    color: white;
+    display: inline-block;
+    margin: 0
+}
+
+#menu .li > a {}
+
+
+
+#main-header-text {
+    position: absolute;
+    font-size: 15mm;
+    color: white;
+    text-align: center;
+    left: 40%;
+    top: 150%;
+}
+
+#header > img {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+#article {
+    text-align: center;
+}
+
+#about-header {
+    text-align-last: center;
+}
+
+.about-content {
+    text-align: center;
+}
+
+
+
+#contact {
+    color: white;
+    text-align: center;
+    background-color: black;
+    background-position: center;
+    margin-left: auto;
+
+}
+
+#contact-content > a {
+    color: white;
+}

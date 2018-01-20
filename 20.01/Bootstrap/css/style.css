@@ -1,0 +1,39 @@
+body {
+    height: 2000px;
+    }
+
+.container-example {
+    height: 300px;
+    background-color: green;
+}
+
+.container-fluid-example{
+    height: 300px;
+    background-color: red;
+}
+
+.element-1 {
+    height: 100px;
+    background-color: lightcoral;
+    }
+
+.element-2 {
+    height: 120px;
+    background-color: aqua;
+}
+
+.element-3 {
+    height: 150px;
+    background-color: blueviolet;
+}
+
+.item {
+    height: 400px;
+    background-color: #ccc;
+    border-bottom: black;
+    border-bottom: 1px solid black; 
+}
+
+.item:nth-child(2n) {
+    background-color: red;
+}

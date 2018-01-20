@@ -1,0 +1,16 @@
+*{box-sizing: border-box;}
+
+.container {
+    width: 450px;
+    height: 450px;
+    border: 3px solid red;
+    margin: 50px 50px;
+    background-image: url(pexels-photo.jpg);
+    background-size: cover;
+    background-position: center;
+    transition: all 0.5s;
+}
+
+.container:hover {
+    background-size: 200% 200%;
+    }

@@ -1,0 +1,12 @@
+*::selection {
+ background-color: red;
+    
+}
+
+#p1 ::before{
+    color: red;
+    content: "przed paragrafem"
+    
+}
+
+#p2 ::
